@@ -1,0 +1,11 @@
+[Unit]
+Description=NVIDIA fan control
+After=default.target
+
+[Service]
+ExecStart=/opt/nvidia-multifan/nvidia-multifan.sh
+KillSignal=SIGINT
+User=root
+
+[Install]
+WantedBy=default.target
