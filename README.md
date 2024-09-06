@@ -2,9 +2,9 @@
 
 ## NVIDIA fan control script for Linux
 
-*Minimal shell script adapted from [https://github.com/wotikama/nvidiafan](nvidiafan) to allow controlling multiple fans independently.*
+*Minimal shell script adapted from [nvidiafan](https://github.com/wotikama/nvidiafan) to allow controlling multiple fans independently.*
 
-This script doesn't use a config file like [https://github.com/nan0s7/nfancurve](nfancurve) but expects you to change the script directly with the desired values.
+This script doesn't use a config file like [nfancurve](https://github.com/nan0s7/nfancurve) but expects you to change the script directly with the desired values.
 
 ### Prerequisites
 
